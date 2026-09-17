@@ -1,4 +1,4 @@
-# Quantum Error Correction Framework — Sample Notebooks
+# Sample Notebooks for our Quantum Error Correction Framework - Quantra
 
 A collection of sample notebooks demonstrating a **Quantum Error Correction (QEC) framework** across quantum machine learning, quantum kernels, quantum reinforcement learning, and well-known quantum algorithms.
 
