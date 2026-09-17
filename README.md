@@ -13,8 +13,9 @@ The current examples cover:
 - Error-Corrected Quantum Machine Learning (QML)
 - Error-Corrected Quantum Vectorization & Kernel Matrix computation
 - Error-Corrected Quantum Reinforcement Learning (QRL)
-- Shor's Algorithm
-- Grover's Algorithm
+- Shor's Algorithm Sample Implementation
+- Grover's Algorithm Sample Implementation
+- Quantum Key Distribution Sample Implementation
 
 The goal of these notebooks is to demonstrate the framework across substantially different quantum workloads rather than limiting validation to a single circuit architecture or application domain.
 
