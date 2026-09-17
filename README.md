@@ -134,8 +134,6 @@ Separate implementations are provided for **PennyLane, Cirq, and Qiskit**.
 
 ## Repository Structure
 
-A suggested repository layout is:
-
 ```text
 .
 ├── README.md
@@ -171,8 +169,6 @@ A suggested repository layout is:
 │
 └── LICENSE
 ```
-
-The actual file names can differ from this structure.
 
 ---
 
