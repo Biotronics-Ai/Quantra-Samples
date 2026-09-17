@@ -43,11 +43,15 @@ Where applicable, equivalent notebook implementations are provided for each fram
 
 Demonstrates the integration of the error-correction framework into a quantum machine learning workflow.
 
-The notebook can be used to investigate how correction affects training behavior, stability, convergence, and generalization under the experimental configuration.
+The notebooks can be used to investigate how correction affects training behavior, stability, convergence, and generalization under the experimental configuration.
 
-| Notebook | Run Online |
-|---|---|
-| Error-Corrected QML | [Open in Kaggle](https://www.kaggle.com/) |
+Separate implementations are provided for **PennyLane, Cirq, and Qiskit**.
+
+| Framework | Notebook | Run Online |
+|---|---|---|
+| PennyLane | `error_corrected_qml_pennylane.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
+| Cirq | `error_corrected_qml_cirq.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
+| Qiskit | `error_corrected_qml_qiskit.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
 
 ---
 
@@ -57,9 +61,13 @@ Demonstrates error-corrected quantum vectorization and construction of a quantum
 
 This example focuses on quantum feature representations and pairwise kernel evaluation, providing a workload that differs substantially from conventional parameterized QML training.
 
-| Notebook | Run Online |
-|---|---|
-| Error-Corrected Quantum Vectorization & Kernel Matrix | [Open in Kaggle](https://www.kaggle.com/) |
+Separate implementations are provided for **PennyLane, Cirq, and Qiskit**.
+
+| Framework | Notebook | Run Online |
+|---|---|---|
+| PennyLane | `error_corrected_quantum_vectorization_kernel_matrix_pennylane.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
+| Cirq | `error_corrected_quantum_vectorization_kernel_matrix_cirq.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
+| Qiskit | `error_corrected_quantum_vectorization_kernel_matrix_qiskit.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
 
 ---
 
@@ -67,12 +75,15 @@ This example focuses on quantum feature representations and pairwise kernel eval
 
 Demonstrates the application of the error-correction framework to a quantum reinforcement learning workflow.
 
-This notebook provides an example of correction operating in a learning environment where circuit outputs participate in an iterative decision and optimization process.
+These notebooks provide examples of correction operating in a learning environment where circuit outputs participate in an iterative decision and optimization process.
 
-| Notebook | Run Online |
-|---|---|
-| Error-Corrected Quantum Reinforcement Learning | [Open in Kaggle](https://www.kaggle.com/) |
+Separate implementations are provided for **PennyLane, Cirq, and Qiskit**.
 
+| Framework | Notebook | Run Online |
+|---|---|---|
+| PennyLane | `error_corrected_quantum_reinforcement_learning_pennylane.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
+| Cirq | `error_corrected_quantum_reinforcement_learning_cirq.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
+| Qiskit | `error_corrected_quantum_reinforcement_learning_qiskit.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
 ---
 
 ### 4. Shor's Algorithm — Sample Implementations
