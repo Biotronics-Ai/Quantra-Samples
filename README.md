@@ -13,9 +13,9 @@ The current examples cover:
 - Error-Corrected Quantum Machine Learning (QML)
 - Error-Corrected Quantum Vectorization & Kernel Matrix computation
 - Error-Corrected Quantum Reinforcement Learning (QRL)
-- Shor's Algorithm Sample Implementation
-- Grover's Algorithm Sample Implementation
-- Quantum Key Distribution Sample Implementation
+- Shor's Algorithm Sample Implementations
+- Grover's Algorithm Sample Implementations
+- Quantum Key Distribution Sample Implementations
 
 The goal of these notebooks is to demonstrate the framework across substantially different quantum workloads rather than limiting validation to a single circuit architecture or application domain.
 
@@ -116,6 +116,22 @@ Separate notebooks are provided for PennyLane, Cirq, and Qiskit.
 
 ---
 
+### 6. Quantum Key Distribution — Sample Implementations
+
+Sample implementations demonstrating the error-correction framework in the context of **Quantum Key Distribution (QKD)**.
+
+The notebooks implement a **BB84-based quantum key distribution workflow**, providing an example of the correction framework in a quantum communication and cryptographic setting.
+
+Separate implementations are provided for **PennyLane, Cirq, and Qiskit**.
+
+| Framework | Notebook | Run Online |
+|---|---|---|
+| PennyLane | `quantum_key_distribution_pennylane.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
+| Cirq | `quantum_key_distribution_cirq.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
+| Qiskit | `quantum_key_distribution_qiskit.ipynb` | [Open in Kaggle](https://www.kaggle.com/) |
+
+---
+
 ## Repository Structure
 
 A suggested repository layout is:
@@ -123,68 +139,40 @@ A suggested repository layout is:
 ```text
 .
 ├── README.md
-├── notebooks/
-│   ├── error_corrected_qml.ipynb
-│   ├── error_corrected_quantum_vectorization_kernel.ipynb
-│   ├── error_corrected_quantum_reinforcement_learning.ipynb
-│   ├── shor/
-│   │   ├── shor_pennylane.ipynb
-│   │   ├── shor_cirq.ipynb
-│   │   └── shor_qiskit.ipynb
-│   └── grover/
-│       ├── grover_pennylane.ipynb
-│       ├── grover_cirq.ipynb
-│       └── grover_qiskit.ipynb
+├── error_corrected_qml/
+│   ├── error_corrected_qml_pennylane.ipynb
+│   ├── error_corrected_qml_cirq.ipynb
+│   └── error_corrected_qml_qiskit.ipynb
+│
+├── error_corrected_quantum_vectorization_kernel_matrix/
+│   ├── error_corrected_quantum_vectorization_kernel_matrix_pennylane.ipynb
+│   ├── error_corrected_quantum_vectorization_kernel_matrix_cirq.ipynb
+│   └── error_corrected_quantum_vectorization_kernel_matrix_qiskit.ipynb
+│
+├── error_corrected_quantum_reinforcement_learning/
+│   ├── error_corrected_quantum_reinforcement_learning_pennylane.ipynb
+│   ├── error_corrected_quantum_reinforcement_learning_cirq.ipynb
+│   └── error_corrected_quantum_reinforcement_learning_qiskit.ipynb
+│
+├── shor/
+│   ├── shor_pennylane.ipynb
+│   ├── shor_cirq.ipynb
+│   └── shor_qiskit.ipynb
+│
+├── grover/
+│   ├── grover_pennylane.ipynb
+│   ├── grover_cirq.ipynb
+│   └── grover_qiskit.ipynb
+│
+├── quantum_key_distribution/
+│   ├── quantum_key_distribution_pennylane.ipynb
+│   ├── quantum_key_distribution_cirq.ipynb
+│   └── quantum_key_distribution_qiskit.ipynb
+│
 └── LICENSE
 ```
 
 The actual file names can differ from this structure.
-
----
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone <YOUR-REPOSITORY-URL>
-cd <YOUR-REPOSITORY-NAME>
-```
-
-It is recommended to use a dedicated Python environment:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
-On Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-Install the quantum framework required by the notebook you want to run.
-
-### PennyLane
-
-```bash
-pip install pennylane
-```
-
-### Qiskit
-
-```bash
-pip install qiskit
-```
-
-### Cirq
-
-```bash
-pip install cirq
-```
-
-Individual notebooks may require additional machine-learning, numerical, visualization, or simulator dependencies. Refer to the import/install cells at the beginning of each notebook.
 
 ---
 
